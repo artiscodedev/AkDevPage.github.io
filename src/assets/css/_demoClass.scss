@@ -1,18 +1,16 @@
 #ak {
   #ak-container {
+    .divDemo {
+      color: $white;
+      width: 100%;
+      height: 300px;
+      background-color: $orange;
+      text-align: center;
 
-    .divDemo{
-        color:$white;
-        width: 100%;
-        height: 300px;
-        background-color: $green;
-        text-align: center;
-
-        &:hover{
-            background-color: red;
-            font-size: 2rem;
-        }
+      &:hover {
+        background-color: red;
+        font-size: 2rem;
+      }
     }
-
   }
 }
