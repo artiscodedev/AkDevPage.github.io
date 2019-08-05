@@ -1,6 +1,6 @@
 #ak {
   .facts {
-    background: url(/src/assets/img/hme_numeralia.jpg);
+    background: url(../../img/hme_numeralia.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -123,15 +123,13 @@
       font-family: $font-family-base;
     }
   }
-
   .contactform {
     color: $white;
-    background: url(/src/assets/img/hme_contacto.jpg);
+    background: url(../../img/hme_contacto.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 120%;
-
     h4 {
       font-weight: normal;
       font-family: $font-family-base;

@@ -234,7 +234,7 @@ h5 {
   transition: transform 1s ease 0.3s, opacity 1s ease 0.3s;
   transition: transform 1s ease 0.3s, opacity 1s ease 0.3s, -webkit-transform 1s ease 0.3s;
   transition: transform 1s ease 0.3s, opacity 1s ease 0.3s, -webkit-transform 1s ease 0.3s;
-  background-image: url(/src/assets/img/preloader-ak.svg);
+  background-image: url(../../img/preloader-ak.svg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
@@ -612,7 +612,7 @@ body.double-diagonal .contactform::before {
 }
 
 #ak .facts {
-  background: url(/src/assets/img/hme_numeralia.jpg);
+  background: url(../../img/hme_numeralia.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -747,7 +747,7 @@ body.double-diagonal .contactform::before {
 
 #ak .contactform {
   color: #ffffff;
-  background: url(/src/assets/img/hme_contacto.jpg);
+  background: url(../../img/hme_contacto.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
