@@ -338,6 +338,7 @@ body.double-diagonal .contact .container:first-child {
 
 body.double-diagonal .services::before,
 body.double-diagonal .team::before,
-body.double-diagonal .contactform::before {
+body.double-diagonal .contactform::before,
+body.double-diagonal .logos::before  {
   background: $orange;
 }
