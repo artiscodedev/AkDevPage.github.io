@@ -14,6 +14,11 @@ body.dark .logos {
   background-color: #242424;
 }
 
+
+body.dark .conocenos {
+  background-color: #ffffff;
+}
+
 body.dark .services-box-item-cover,
 body.dark .services-box-item-content {
   background: #151515;
@@ -87,6 +92,7 @@ body.dark .footer {
 
 
 body.double-diagonal .services,
+body.double-diagonal .conocenos,
 body.double-diagonal .testimonials,
 body.double-diagonal .pricing,
 body.double-diagonal .team,
@@ -157,6 +163,10 @@ body.double-diagonal .project .container {
 }
 
 body.double-diagonal .services .container {
+  padding: 50px 15px 110px !important;
+}
+
+body.double-diagonal .conocenos .container {
   padding: 50px 15px 110px !important;
 }
 
@@ -244,7 +254,11 @@ body.double-diagonal .blog::after,
 body.double-diagonal .contact::before,
 body.double-diagonal .contact::after,
 body.double-diagonal .logos::before,
-body.double-diagonal .logos::after {
+body.double-diagonal .logos::after,
+body.double-diagonal .conocenos::before,
+body.double-diagonal .conocenos::after,
+body.double-diagonal .conocenos::before,
+body.double-diagonal .conocenos::after {
   top: 0;
   left: -25%;
   z-index: -1;
@@ -264,6 +278,7 @@ body.double-diagonal .shop-cart::before,
 body.double-diagonal .shop-checkout::before,
 body.double-diagonal .project::before,
 body.double-diagonal .services::before,
+body.double-diagonal .conocenos::before,
 body.double-diagonal .pricing::before,
 body.double-diagonal .portfolio::before,
 body.double-diagonal .team::before,
@@ -337,6 +352,7 @@ body.double-diagonal .contact .container:first-child {
 
 
 body.double-diagonal .services::before,
+body.double-diagonal .conocenos::before,
 body.double-diagonal .team::before,
 body.double-diagonal .contactform::before,
 body.double-diagonal .logos::before  {

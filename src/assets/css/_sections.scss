@@ -330,11 +330,10 @@
             text-align: center;
           }
 
-          .f-item-2{
+          .f-item-2 {
             &::before {
-                
-                border-bottom: 0px solid $orange;
-              }
+              border-bottom: 0px solid $orange;
+            }
           }
         }
       }
@@ -344,5 +343,56 @@
   .section-overlay {
     background-color: $color-21;
     padding: 110px 0;
+  }
+
+  .conocenos-header {
+    background: url(../../img/Int_Conocenos.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 120%;
+    color: $color-28;
+    .title-text {
+      font-size: 48px !important;
+      color: $white;
+      font-family: $font-family-base-monserrat;
+    }
+
+    label {
+      font-size: 15px;
+      color: $white;
+      font-family: $font-family-base-monserrat;
+    }
+  }
+
+  .conocenos {
+    .subtitle-text {
+      font-size: 30px !important;
+      color: $orange;
+      font-family: $font-family-base-monserrat;
+
+      
+    }
+
+    .line-border{
+      padding-bottom: 5px;
+      border-bottom: 1px solid  $color-bg-4;
+    }
+
+    p {
+      font-family: $font-family-base-monserrat;
+      color: $color-text-2;
+      font-size: 15px !important;
+    }
+
+    .img-conocenos {
+      background: url(../../img/img_acercade.jpg);
+     
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 75%;
+      width: 75%;
+      padding: 20px;
+    }
   }
 }

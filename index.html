@@ -43,106 +43,356 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />  -->
 
-
     <!-- Revolution Slider CSS Files -->
-    <link rel="stylesheet" type="text/css" href="src/assets/plugins/revolution/css/settings.css" />
-    <link rel="stylesheet" type="text/css" href="src/assets/plugins/revolution/css/layers.css" />
-    <link rel="stylesheet" type="text/css" href="src/assets/plugins/revolution/css/navigation.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/src/assets/plugins/revolution/css/settings.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/src/assets/plugins/revolution/css/layers.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/src/assets/plugins/revolution/css/navigation.css"
+    />
 
-
-    <link rel="stylesheet" href="src/assets/css/dist/main.min.css" />
+    <link rel="stylesheet" href="/src/assets/css/dist/main.min.css" />
   </head>
 
   <body id="ak" class="dark double-diagonal">
     <div class="preloader loading  " id="preloader">
       <div class="logopreloader">
-        <img src="src/assets/img/logo_header.png" alt="logo-black" />
+        <img src="/src/assets/img/logo_header.png" alt="logo-black" />
       </div>
       <div class="loader" id="loader"></div>
     </div>
 
     <div class="wrapper">
-      <div class="ak-menu-wrapper"></div>
+      <header id="header" class="header">
+        <div class="header-inner">
+          <!-- Navbar Starts -->
+          <nav class="navbar navbar-expand-lg p-0" id="singlepage-nav">
+            <!-- Logo Starts -->
+            <div class="logo">
+              <a
+                data-toggle="collapse"
+                data-target=".navbar-collapse.show"
+                class="navbar-brand link-menu scroll-to-target"
+                href="#mainslider"
+              >
+                <!-- Logo White Starts -->
+                <img
+                  id="logo-light"
+                  class="logo-light"
+                  src="/src/assets/img/logo_header.png"
+                  alt="logo-light"
+                />
+                <!-- Logo White Ends -->
+                <!-- Logo Black Starts -->
+                <img
+                  id="logo-dark"
+                  class="logo-dark"
+                  src="/src/assets/img/logo_header.png"
+                  alt="logo-dark"
+                />
+                <!-- Logo Black Ends -->
+              </a>
+            </div>
+            <!-- Logo Ends -->
+            <!-- Hamburger Icon Starts -->
+            <button
+              class="navbar-toggler p-0"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span id="icon-toggler">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </button>
+            <!-- Hamburger Icon Ends -->
+            <!-- Navigation Menu Starts -->
 
-          <!-- Main Slider Section Starts -->
-          <section class="mainslider" id="mainslider">
-                <!-- Slider Hero Starts -->
-                <div class="rev_slider_wrapper fullwidthbanner-container dark-slider" data-alias="vimeo-hero" style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
-                    <!-- START REVOLUTION SLIDER 5.0.7 fullwidth mode -->
-                    <div id="rev_slider" class="rev_slider fullwidthabanner"  data-version="5.0.7">
-                        <ul>
-                            <!-- SLIDE  -->
-                            <li data-index="rs-18" data-transition="zoomin" data-slotamount="7" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-thumb="http://slimhamdi.net/salimo/demos/img/revolution-slider/kenburns/thumb1.jpg" data-rotate="0" data-saveperformance="off" data-title="Ken Burns" data-description="">
-                                <!-- MAIN IMAGE -->
-                                <img alt="" src="http://slimhamdi.net/salimo/demos/img/revolution-slider/kenburns/kenburns1.jpg" data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="180" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
-                                <!-- LAYERS -->
+            <div class="d-flex flex-row  mb-2 icon-media">
+              <ul class="top-menu navbar-nav flex-row ">
+                <li class="nav-item">
+                  <a
+                   
+                    class="nav-link "
+                    href="#"
+                  >
+                 <i class="fa fa-question-circle" aria-hidden="true"></i>  Ayuda
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                   
+                    class="nav-link "
+                    href="#"
+                  >
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                    Contacto
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="collapse navbar-collapse nav-menu"
+              id="navbarSupportedContent"
+            >
+              <ul class="nav-menu-inner ml-auto">
+                <li>
+                  <a
+                    data-toggle="collapse"
+                    data-target=".navbar-collapse.show"
+                    class="link-menu"
+                    href="#"
+                    >CONÓCENOS</a
+                  >
+                </li>
+                <li>
+                  <a
+                    data-toggle="collapse"
+                    data-target=".navbar-collapse.show"
+                    class="link-menu current"
+                    href="#"
+                  >
+                    NUESTROS SERVICIOS
+                  </a>
+                </li>
+                <li class="nav_item_border">
+                  <a
+                    data-toggle="collapse"
+                    data-target=".navbar-collapse.show"
+                    class="link-menu"
+                    href="#"
+                  >
+                    NUESTRA EXPERIENCIA
+                  </a>
+                </li>
+                <li class="d-block d-lg-none">
+                  <a
+                    data-toggle="collapse"
+                    data-target=".navbar-collapse.show"
+                    class="link-menu"
+                    href="#"
+                  >
+                    AYUDA
+                  </a>
+                </li>
+                <li class="d-block d-lg-none">
+                  <a
+                    data-toggle="collapse"
+                    data-target=".navbar-collapse.show"
+                    class="link-menu"
+                    href="#"
+                  >
+                   CONTACTO
+                  </a>
+                </li>
+                <li>
+                  <div class="social-icons">
+                    <ul class="social">
+                      <li>
+                        <a class="facebook" href="#" title="facebook"></a>
+                      </li>
     
-                                <!-- LAYER NR. 1 -->
-                                <div class="tp-caption NotGeneric-Title   tp-resizeme rs-parallaxlevel-0" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-fontsize="['70','70','70','45']" data-lineheight="['70','70','70','50']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="chars" data-splitout="none" data-responsive_offset="on" data-elementdelay="0.05" style="z-index: 5; white-space: nowrap;">WE ARE SALIMO
-                                </div>
+                      <li>
+                        <a class="twitter" href="#" title="twitter"></a>
+                      </li>
     
-                                <!-- LAYER NR. 2 -->
-                                <div class="tp-caption NotGeneric-SubTitle   tp-resizeme rs-parallaxlevel-0 nowrap-normal text-center px-15" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['70','70','70','70']" data-width="none" data-height="none" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 6;">CREATIVE ONE PAGE TEMPLATE
-                                </div>
-    
-                                <!-- LAYER NR. 3 -->
-                                <div class="tp-caption NotGeneric-Icon   tp-resizeme rs-parallaxlevel-0" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-68','-68','-68','-68']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-style_hover="cursor:default;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="2000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap;"><i class="pe-7s-refresh"></i>
-                                </div>
-                                <!-- LAYER NR. 4 -->
-                                <div class="tp-caption" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['150','210','210','180']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;" data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);" data-transform_in="y:100px;sX:1;sY:1;opacity:0;s:2000;e:Power3.easeInOut;" data-transform_out="y:50px;opacity:0;s:1000;e:Power2.easeInOut;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" data-responsive="off" style="z-index: 11; white-space: nowrap;text-transform:left;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;"><a href="#about" class="custom-button slider-button scroll-to-target">learn more about us</a></div>
-                            </li>
-                            <!-- SLIDE  -->
-                            <li data-index="rs-2" data-transition="zoomin" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="http://slimhamdi.net/salimo/demos/img/revolution-slider/kenburns/thumb2.jpg" data-rotate="0" data-fsmasterspeed="300" data-fsslotamount="7" data-saveperformance="off" data-title="Intro" data-description="">
-                                <!-- MAIN IMAGE -->
-                                <img alt="" src="http://slimhamdi.net/salimo/demos/img/revolution-slider/kenburns/kenburns2.jpg" data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="180" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
-                                <!-- LAYERS -->
-    
-                                <!-- LAYER NR. 1 -->
-                                <div class="tp-caption NotGeneric-Title   tp-resizeme rs-parallaxlevel-0" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-fontsize="['70','70','70','45']" data-lineheight="['70','70','70','50']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="chars" data-splitout="none" data-responsive_offset="on" data-elementdelay="0.05" style="z-index: 5; white-space: nowrap;">WE ARE CREATIVE
-                                </div>
-    
-                                <!-- LAYER NR. 2 -->
-                                <div class="tp-caption NotGeneric-SubTitle   tp-resizeme rs-parallaxlevel-0  nowrap-normal text-center px-15" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['70','70','70','70']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 6; white-space: nowrap;">TEAM WITH BIG TALENTS
-                                </div>
-    
-                                <!-- LAYER NR. 3 -->
-                                <div class="tp-caption NotGeneric-Icon   tp-resizeme rs-parallaxlevel-0" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-68','-68','-68','-68']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-style_hover="cursor:default;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="2000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap;"><i class="pe-7s-refresh"></i>
-                                </div>
-                                <!-- LAYER NR. 4 -->
-                                <div class="tp-caption" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['150','210','210','180']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;" data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);" data-transform_in="y:100px;sX:1;sY:1;opacity:0;s:2000;e:Power3.easeInOut;" data-transform_out="y:50px;opacity:0;s:1000;e:Power2.easeInOut;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" data-responsive="off" style="z-index: 11; white-space: nowrap;text-transform:left;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;"><a href="#about" class="custom-button slider-button scroll-to-target">learn more about us</a></div>
-                            </li>
-                            <!-- SLIDE  -->
-                            <li data-index="rs-3" data-transition="zoomin" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="http://slimhamdi.net/salimo/demos/img/revolution-slider/kenburns/thumb3.jpg" data-rotate="0" data-fsmasterspeed="300" data-fsslotamount="7" data-saveperformance="off" data-title="Intro" data-description="">
-                                <!-- MAIN IMAGE -->
-                                <img alt="" src="http://slimhamdi.net/salimo/demos/img/revolution-slider/kenburns/kenburns3.jpg" data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="180" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
-                                <!-- LAYERS -->
-    
-                                <!-- LAYER NR. 1 -->
-                                <div class="tp-caption NotGeneric-Title   tp-resizeme rs-parallaxlevel-0" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-fontsize="['70','70','70','45']" data-lineheight="['70','70','70','50']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="chars" data-splitout="none" data-responsive_offset="on" data-elementdelay="0.05" style="z-index: 5; white-space: nowrap;">WE ARE THE BEST
-                                </div>
-    
-                                <!-- LAYER NR. 2 -->
-                                <div class="tp-caption NotGeneric-SubTitle   tp-resizeme rs-parallaxlevel-0 nowrap-normal text-center px-15" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['70','70','70','70']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 6; white-space: nowrap;">COMPANY IN THE WORLD
-                                </div>
-    
-                                <!-- LAYER NR. 3 -->
-                                <div class="tp-caption NotGeneric-Icon   tp-resizeme rs-parallaxlevel-0" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-68','-68','-68','-68']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-style_hover="cursor:default;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="2000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap;"><i class="pe-7s-refresh"></i>
-                                </div>
-                                <!-- LAYER NR. 4 -->
-                                <div class="tp-caption" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['150','210','210','180']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;" data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);" data-transform_in="y:100px;sX:1;sY:1;opacity:0;s:2000;e:Power3.easeInOut;" data-transform_out="y:50px;opacity:0;s:1000;e:Power2.easeInOut;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" data-responsive="off" style="z-index: 11; white-space: nowrap;text-transform:left;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;"><a href="#about" class="custom-button slider-button scroll-to-target">learn more about us</a></div>
-                            </li>
-                        </ul>
-                        <div class="tp-static-layers"></div>
-                        <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
-                    </div>
+                      <li>
+                        <a class="linkedin" href="#" title="linkedin"></a>
+                      </li>
+                      <li>
+                        <a class="youtube" href="#" title="youtube"></a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- Navigation Menu Ends -->
+          </nav>
+          <!-- Navbar Ends -->
+        </div>
+      </header>
+
+      <!-- Main Slider Section Starts -->
+      <section class="mainslider" id="mainslider">
+        <!-- Slider Hero Starts -->
+        <div
+          class="rev_slider_wrapper fullwidthbanner-container dark-slider"
+          data-alias="vimeo-hero"
+          style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;"
+        >
+          <!-- START REVOLUTION SLIDER 5.0.7 fullwidth mode -->
+          <div
+            id="rev_slider"
+            class="rev_slider fullwidthabanner"
+            data-version="5.0.7"
+          >
+            <ul>
+              <!-- SLIDE  -->
+              <li
+                data-index="rs-18"
+                data-transition="zoomin"
+                data-slotamount="7"
+                data-easein="Power4.easeInOut"
+                data-easeout="Power4.easeInOut"
+                data-masterspeed="2000"
+                data-thumb="/src/assets/img/hme_slide01.jpg"
+                data-rotate="0"
+                data-saveperformance="off"
+                data-title="Ken Burns"
+                data-description=""
+              >
+                <!-- MAIN IMAGE -->
+                <img
+                  alt=""
+                  src="/src/assets/img/hme_slide01.jpg"
+                  data-bgposition="center center"
+                  data-kenburns="on"
+                  data-duration="30000"
+                  data-ease="Linear.easeNone"
+                  data-scalestart="100"
+                  data-scaleend="180"
+                  data-rotatestart="0"
+                  data-rotateend="0"
+                  data-offsetstart="0 0"
+                  data-offsetend="0 0"
+                  data-bgparallax="10"
+                  class="rev-slidebg"
+                  data-no-retina
+                />
+                <!-- LAYERS -->
+
+                <!-- LAYER NR. 1 -->
+                <div
+                  class="tp-caption NotGeneric-Title   tp-resizeme rs-parallaxlevel-0"
+                  data-x="['center','center','center','center']"
+                  data-hoffset="['0','0','0','0']"
+                  data-y="['middle','middle','middle','middle']"
+                  data-voffset="['0','0','0','0']"
+                  data-fontsize="['58','58','58','35']"
+                  data-lineheight="['55','55','55','40']"
+                  data-width="none"
+                  data-height="none"
+                  data-whitespace="nowrap"
+                  data-transform_idle="o:1;"
+                  data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;"
+                  data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                  data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                  data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                  data-start="1000"
+                  data-splitin="chars"
+                  data-splitout="none"
+                  data-responsive_offset="on"
+                  data-elementdelay="0.05"
+                  style="z-index: 5; white-space: nowrap;"
+                >
+                  CUMPLIMOS TUS METAS
                 </div>
-                <!-- END REVOLUTION SLIDER -->
-                <!-- Slider Hero Ends -->
-            </section>
-            <!-- Main Slider Section Ends -->
 
+                <!-- LAYER NR. 2 -->
+                <div
+                  class="tp-caption NotGeneric-SubTitle   tp-resizeme rs-parallaxlevel-0 nowrap-normal text-center px-15"
+                  data-x="['center','center','center','center']"
+                  data-hoffset="['0','0','0','0']"
+                  data-y="['middle','middle','middle','middle']"
+                  data-voffset="['70','70','70','70']"
+                  data-width="none"
+                  data-height="none"
+                  data-transform_idle="o:1;"
+                  data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                  data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                  data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+                  data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                  data-start="1500"
+                  data-splitin="none"
+                  data-splitout="none"
+                  data-responsive_offset="on"
+                  style="z-index: 6;"
+                >
+                  METODOLOGÍA DE IMPLEMENTACIÓN
+                </div>
 
-
+                <!-- LAYER NR. 3 -->
+                <div
+                  class="tp-caption NotGeneric-Icon   tp-resizeme rs-parallaxlevel-0"
+                  data-x="['center','center','center','center']"
+                  data-hoffset="['0','0','0','0']"
+                  data-y="['middle','middle','middle','middle']"
+                  data-voffset="['-68','-68','-68','-68']"
+                  data-width="none"
+                  data-height="none"
+                  data-whitespace="nowrap"
+                  data-transform_idle="o:1;"
+                  data-style_hover="cursor:default;"
+                  data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;"
+                  data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                  data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+                  data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                  data-start="2000"
+                  data-splitin="none"
+                  data-splitout="none"
+                  data-responsive_offset="on"
+                  style="z-index: 7; white-space: nowrap;"
+                >
+                  <i class="pe-7s-refresh"></i>
+                </div>
+                <!-- LAYER NR. 4 -->
+                <div
+                  class="tp-caption"
+                  data-x="['center','center','center','center']"
+                  data-hoffset="['0','0','0','0']"
+                  data-y="['middle','middle','middle','middle']"
+                  data-voffset="['150','210','210','180']"
+                  data-width="none"
+                  data-height="none"
+                  data-whitespace="nowrap"
+                  data-transform_idle="o:1;"
+                  data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;"
+                  data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);"
+                  data-transform_in="y:100px;sX:1;sY:1;opacity:0;s:2000;e:Power3.easeInOut;"
+                  data-transform_out="y:50px;opacity:0;s:1000;e:Power2.easeInOut;"
+                  data-start="750"
+                  data-splitin="none"
+                  data-splitout="none"
+                  data-responsive_offset="on"
+                  data-responsive="off"
+                  style="z-index: 11; white-space: nowrap;text-transform:left;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;"
+                >
+                  <a
+                    href="#about"
+                    class="custom-button slider-button scroll-to-target"
+                    >VER MÁS</a
+                  >
+                </div>
+              </li>
+              <!-- SLIDE  -->
+            </ul>
+            <div class="tp-static-layers"></div>
+            <div
+              class="tp-bannertimer tp-bottom"
+              style="visibility: hidden !important;"
+            ></div>
+          </div>
+        </div>
+        <!-- END REVOLUTION SLIDER -->
+        <!-- Slider Hero Ends -->
+      </section>
+      <!-- Main Slider Section Ends -->
 
       <section id="services" class="services">
         <!-- Container Starts -->
@@ -161,7 +411,7 @@
               <!-- Service Item Content Starts -->
               <div class="card card-services">
                 <div class="card-body text-center">
-                  <img src="src/assets/img/hme_serv_01.png" alt="" />
+                  <img src="/src/assets/img/hme_serv_01.png" alt="" />
                   <h4>
                     Metodología de implementación SAP
                   </h4>
@@ -176,7 +426,7 @@
               <!-- Service Item Content Starts -->
               <div class="card card-services">
                 <div class="card-body text-center">
-                  <img src="src/assets/img/hme_serv_02.png" alt="" />
+                  <img src="/src/assets/img/hme_serv_02.png" alt="" />
                   <h4>
                     Administración de aplicaciones SAP
                   </h4>
@@ -190,7 +440,7 @@
               <!-- Service Item Content Starts -->
               <div class="card card-services">
                 <div class="card-body text-center">
-                  <img src="src/assets/img/hme_serv_03.png" alt="" />
+                  <img src="/src/assets/img/hme_serv_03.png" alt="" />
                   <h4>
                     Consultoría y staffing en productos SAP
                   </h4>
@@ -204,7 +454,7 @@
               <!-- Service Item Content Starts -->
               <div class="card card-services">
                 <div class="card-body text-center">
-                  <img src="src/assets/img/hme_serv_04.png" alt="" />
+                  <img src="/src/assets/img/hme_serv_04.png" alt="" />
                   <h4>
                     Migraciones y conversiones SAP
                   </h4>
@@ -225,33 +475,32 @@
             <!-- Main Heading Starts -->
             <div class="text-center top-text">
               <h1><span class="orange">NUESTRA</span> EXPERIENCIA</h1>
-              <h4>NUMERALIA QUE NOS RESPALDA
-                </h4>
+              <h4>NUMERALIA QUE NOS RESPALDA</h4>
             </div>
             <!-- Main Heading Starts -->
             <!-- Fact Badges Starts -->
             <div class="fact-badges ">
               <div class="row">
                 <!-- Fact Badge Item Starts -->
-                <div class="col-md-3 col-sm-6 item">
+                <div class="col-md-3 col-sm-6 item mb-4 mb-md-0">
                   <h2>+<span class="badges-counter">9000</span></h2>
                   <h4>HORAS DE SOPORTE ESPECIALIZADO</h4>
                 </div>
                 <!-- Fact Badge Item Ends -->
                 <!-- Fact Badge Item Starts -->
-                <div class="col-md-3 col-sm-6 item">
+                <div class="col-md-3 col-sm-6 item mb-4 mb-md-0">
                   <h2>+<span class="badges-counter">30</span></h2>
                   <h4>SERVICIOS DE SISTEMAS ADMINISTRADOS</h4>
                 </div>
                 <!-- Fact Badge Item Ends -->
                 <!-- Fact Badge Item Starts -->
-                <div class="col-md-3 col-sm-6 item">
+                <div class="col-md-3 col-sm-6 item mb-4 mb-md-0">
                   <h2>+<span class="badges-counter">15</span></h2>
                   <h4>PROCESOS DE ACTUALIZACIÓN EXITOSOS</h4>
                 </div>
                 <!-- Fact Badge Item Ends -->
                 <!-- Fact Badge Item Starts -->
-                <div class="col-md-3 col-sm-6 item">
+                <div class="col-md-3 col-sm-6 item mb-4 mb-md-0">
                   <h2>+<span class="badges-counter">20</span></h2>
                   <h4>MIGRACIONES DE PLATAFORMA TECNOLÓGICA</h4>
                 </div>
@@ -291,7 +540,7 @@
                 <blockquote>
                   <img
                     class="rounded-circle img-fluid"
-                    src="src/assets/img/avatar_client.jpg"
+                    src="/src/assets/img/avatar_client.jpg"
                     alt="client"
                   />
                   <p>
@@ -311,7 +560,7 @@
                 <blockquote>
                   <img
                     class="rounded-circle img-fluid"
-                    src="src/assets/img/avatar_client.jpg"
+                    src="/src/assets/img/avatar_client.jpg"
                     alt="client"
                   />
                   <p>
@@ -331,7 +580,7 @@
                 <blockquote>
                   <img
                     class="rounded-circle img-fluid"
-                    src="src/assets/img/avatar_client.jpg"
+                    src="/src/assets/img/avatar_client.jpg"
                     alt="client"
                   />
                   <p>
@@ -408,7 +657,10 @@
                               <label>Mensaje</label>
                             </div>
                             <div class="btn-box text-right">
-                              <button class="btn btn-submit" type="submit">
+                              <button
+                                class="btn btn-submit custom-button"
+                                type="submit"
+                              >
                                 ENVIAR
                               </button>
                             </div>
@@ -438,84 +690,84 @@
             <li>
               <img
                 id="cte_logo_biopappel"
-                src="src/assets/img/cte_logo_biopappel.png"
+                src="/src/assets/img/cte_logo_biopappel.png"
                 alt="3docean"
               />
             </li>
             <li>
               <img
                 id="cte_logo_elementia"
-                src="src/assets/img/cte_logo_elementia.png"
+                src="/src/assets/img/cte_logo_elementia.png"
                 alt="elementia"
               />
             </li>
             <li>
               <img
                 id="cte_logo_ferromex"
-                src="src/assets/img/cte_logo_ferromex.png"
+                src="/src/assets/img/cte_logo_ferromex.png"
                 alt="ferromex"
               />
             </li>
             <li>
               <img
                 id="cte_logo_interac"
-                src="src/assets/img/cte_logo_interac.png"
+                src="/src/assets/img/cte_logo_interac.png"
                 alt="interac"
               />
             </li>
             <li>
               <img
                 id="cte_logo_klassco"
-                src="src/assets/img/cte_logo_klassco.png"
+                src="/src/assets/img/cte_logo_klassco.png"
                 alt="klassco"
               />
             </li>
             <li>
               <img
                 id="cte_logo_kuo"
-                src="src/assets/img/cte_logo_kuo.png"
+                src="/src/assets/img/cte_logo_kuo.png"
                 alt="kuo"
               />
             </li>
             <li>
               <img
                 id="cte_logo_maypo"
-                src="src/assets/img/cte_logo_maypo.png"
+                src="/src/assets/img/cte_logo_maypo.png"
                 alt="maypo"
               />
             </li>
             <li>
               <img
                 id="cte_logo_nadro"
-                src="src/assets/img/cte_logo_nadro.png"
+                src="/src/assets/img/cte_logo_nadro.png"
                 alt="nadro"
               />
             </li>
             <li>
               <img
                 id="cte_logo_price"
-                src="src/assets/img/cte_logo_price.png"
+                src="/src/assets/img/cte_logo_price.png"
                 alt="price"
               />
             </li>
             <li>
               <img
                 id="cte_logo_salinas"
-                src="src/assets/img/cte_logo_salinas.png"
+                src="/src/assets/img/cte_logo_salinas.png"
                 alt="salinas"
               />
             </li>
             <li>
               <img
                 id="cte_logo_snAnt"
-                src="src/assets/img/cte_logo_snAnt.png"
+                src="/src/assets/img/cte_logo_snAnt.png"
                 alt="snAnt"
               />
             </li>
             <li>
               <img
                 id="cte_logo_tuvanosa"
-                src="src/assets/img/cte_logo_tuvanosa.png"
+                src="/src/assets/img/cte_logo_tuvanosa.png"
                 alt="tuvanosa"
               />
             </li>
@@ -562,7 +814,7 @@
               </div>
             </div>
             <div class="col-md-4 footer-content-2 my-auto ">
-              <img src="src/assets/img/logo_footer.png" alt="" />
+              <img src="/src/assets/img/logo_footer.png" alt="" />
               <!-- Copyright Text Ends -->
               <!-- Social Media Links Starts -->
               <div class="social-icons">
@@ -654,139 +906,170 @@
 
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
-  
+    <!-- Revolution Slider Main JS Files -->
+    <script
+      type="text/javascript"
+      src="/src/assets/plugins/revolution/js/jquery.themepunch.tools.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/src/assets/plugins/revolution/js/jquery.themepunch.revolution.min.js"
+    ></script>
 
-        <!-- Revolution Slider Main JS Files -->
-        <script type="text/javascript" src="src/assets/plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
-        <script type="text/javascript" src="src/assets/plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
-    
-        <!-- Revolution Slider Extensions -->
-    
-        <script type="text/javascript" src="src/assets/plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-        <script type="text/javascript" src="src/assets/plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-        <script type="text/javascript" src="src/assets/plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-        <script type="text/javascript" src="src/assets/plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-        <script type="text/javascript" src="src/assets/plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-        <script type="text/javascript" src="src/assets/plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-        <script type="text/javascript" src="src/assets/plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-        <script type="text/javascript" src="src/assets/plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-        <script type="text/javascript" src="src/assets/plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <!-- Revolution Slider Extensions -->
 
-    <script src="src/assets/js/components/utility.js"></script>
+    <script
+      type="text/javascript"
+      src="/src/assets/plugins/revolution/js/extensions/revolution.extension.actions.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/src/assets/plugins/revolution/js/extensions/revolution.extension.carousel.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/src/assets/plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/src/assets/plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/src/assets/plugins/revolution/js/extensions/revolution.extension.migration.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/src/assets/plugins/revolution/js/extensions/revolution.extension.navigation.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/src/assets/plugins/revolution/js/extensions/revolution.extension.parallax.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/src/assets/plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/src/assets/plugins/revolution/js/extensions/revolution.extension.video.min.js"
+    ></script>
 
-    <script src="src/assets/js/components/comp-preloader.js"></script>
-    <script src="src/assets/js/components/comp-empresas.js"></script>
-    <script src="src/assets/js/main.js"></script>
+    <script src="/src/assets/js/components/utility.js"></script>
 
+    <script src="/src/assets/js/components/comp-preloader.js"></script>
+    <script src="/src/assets/js/components/comp-empresas.js"></script>
+    <script src="/src/assets/js/main.js"></script>
 
-        <!-- Revolution Slider Initialization Starts -->
-        <script type="text/javascript">
-          (function(){
-            "use strict";
-                var tpj = jQuery;
-                var revapi4;
-                tpj(document).ready(function() {
-                    if (tpj("#rev_slider").revolution == undefined) {
-                        revslider_showDoubleJqueryError("#rev_slider");
-                    } else {
-                        revapi4 = tpj("#rev_slider").show().revolution({
-                            sliderType: "standard",
-                            jsFileLocation: "js/plugins/revolution/js/",
-                            dottedOverlay: "none",
-                  sliderLayout:"fullscreen",
-                            delay: 9000,
-                            navigation: {
-                                keyboardNavigation: "off",
-                                keyboard_direction: "horizontal",
-                                mouseScrollNavigation: "off",
-                                onHoverStop: "off",
-                                touch: {
-                                    touchenabled: "on",
-                                    swipe_threshold: 75,
-                                    swipe_min_touches: 1,
-                                    swipe_direction: "horizontal",
-                                    drag_block_vertical: false
-                                },
-                                arrows: {
-                                    style: "zeus",
-                                    enable: true,
-                                    hide_onmobile: true,
-                                    hide_under: 600,
-                                    hide_onleave: true,
-                                    hide_delay: 200,
-                                    hide_delay_mobile: 1200,
-                                    tmp: '<div class="tp-title-wrap">  	<div class="tp-arr-imgholder"></div> </div>',
-                                    left: {
-                                        h_align: "left",
-                                        v_align: "center",
-                                        h_offset: 90,
-                                        v_offset: 0
-                                    },
-                                    right: {
-                                        h_align: "right",
-                                        v_align: "center",
-                                        h_offset: 90,
-                                        v_offset: 0
-                                    }
-                                },
-                                bullets: {
-                                    enable: false,
-                                    hide_onmobile: true,
-                                    hide_under: 600,
-                                    style: "metis",
-                                    hide_onleave: true,
-                                    hide_delay: 200,
-                                    hide_delay_mobile: 1200,
-                                    direction: "horizontal",
-                                    h_align: "center",
-                                    v_align: "bottom",
-                                    h_offset: 0,
-                                    v_offset: 30,
-                                    space: 5,
-                                    tmp: '<span class="tp-bullet-img-wrap">  <span class="tp-bullet-image"></span></span>'
-                                }
-                            },
-                            viewPort: {
-                                enable: true,
-                                outof: "pause",
-                                visible_area: "80%"
-                            },
-                            responsiveLevels: [1240, 1024, 778, 480],
-                            gridwidth: [1240, 1024, 778, 480],
-                            gridheight: [600, 600, 500, 400],
-                            lazyType: "none",
-                            parallax: {
-                                type: "mouse",
-                                origo: "slidercenter",
-                                speed: 2000,
-                                levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50],
-                            },
-                            shadow: 0,
-                            spinner: "off",
-                            stopLoop: "off",
-                            stopAfterLoops: -1,
-                            stopAtSlide: -1,
-                            shuffle: "off",
-                            hideThumbsOnMobile: "off",
-                            autoHeight: "off",
-                            hideSliderAtLimit: 0,
-                            hideCaptionAtLimit: 0,
-                            hideAllCaptionAtLilmit: 0,
-                            debugMode: false,
-                            fallbacks: {
-                                simplifyAll: "off",
-                                nextSlideOnWindowFocus: "off",
-                                disableFocusListener: false,
-                            }
-                        });
+    <!-- Revolution Slider Initialization Starts -->
+    <script type="text/javascript">
+      (function() {
+        "use strict";
+        var tpj = jQuery;
+        var revapi4;
+        tpj(document).ready(function() {
+          if (tpj("#rev_slider").revolution == undefined) {
+            revslider_showDoubleJqueryError("#rev_slider");
+          } else {
+            revapi4 = tpj("#rev_slider")
+              .show()
+              .revolution({
+                sliderType: "standard",
+                jsFileLocation: "js/plugins/revolution/js/",
+                dottedOverlay: "none",
+                sliderLayout: "fullscreen",
+                delay: 9000,
+                navigation: {
+                  keyboardNavigation: "off",
+                  keyboard_direction: "horizontal",
+                  mouseScrollNavigation: "off",
+                  onHoverStop: "off",
+                  touch: {
+                    touchenabled: "on",
+                    swipe_threshold: 75,
+                    swipe_min_touches: 1,
+                    swipe_direction: "horizontal",
+                    drag_block_vertical: false
+                  },
+                  arrows: {
+                    style: "zeus",
+                    enable: true,
+                    hide_onmobile: true,
+                    hide_under: 600,
+                    hide_onleave: true,
+                    hide_delay: 200,
+                    hide_delay_mobile: 1200,
+                    tmp:
+                      '<div class="tp-title-wrap">  	<div class="tp-arr-imgholder"></div> </div>',
+                    left: {
+                      h_align: "left",
+                      v_align: "center",
+                      h_offset: 90,
+                      v_offset: 0
+                    },
+                    right: {
+                      h_align: "right",
+                      v_align: "center",
+                      h_offset: 90,
+                      v_offset: 0
                     }
-                });
-            
-      
-              
-          })(jQuery);
-            </script>
-            <!-- Revolution Slider Initialization Ends -->
+                  },
+                  bullets: {
+                    enable: false,
+                    hide_onmobile: true,
+                    hide_under: 600,
+                    style: "metis",
+                    hide_onleave: true,
+                    hide_delay: 200,
+                    hide_delay_mobile: 1200,
+                    direction: "horizontal",
+                    h_align: "center",
+                    v_align: "bottom",
+                    h_offset: 0,
+                    v_offset: 30,
+                    space: 5,
+                    tmp:
+                      '<span class="tp-bullet-img-wrap">  <span class="tp-bullet-image"></span></span>'
+                  }
+                },
+                viewPort: {
+                  enable: true,
+                  outof: "pause",
+                  visible_area: "70%"
+                },
+                responsiveLevels: [1240, 1024, 778, 320],
+                gridwidth: [1240, 1024, 778, 320],
+                gridheight: [600, 600, 500, 400],
+                lazyType: "none",
+                parallax: {
+                  type: "mouse",
+                  origo: "slidercenter",
+                  speed: 2000,
+                  levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50]
+                },
+                shadow: 0,
+                spinner: "off",
+                stopLoop: "off",
+                stopAfterLoops: -1,
+                stopAtSlide: -1,
+                shuffle: "off",
+                hideThumbsOnMobile: "off",
+                autoHeight: "off",
+                hideSliderAtLimit: 0,
+                hideCaptionAtLimit: 0,
+                hideAllCaptionAtLilmit: 0,
+                debugMode: false,
+                fallbacks: {
+                  simplifyAll: "off",
+                  nextSlideOnWindowFocus: "off",
+                  disableFocusListener: false
+                }
+              });
+          }
+        });
+      })(jQuery);
+    </script>
+    <!-- Revolution Slider Initialization Ends -->
     <script>
       // $('#navId a').click(e => {
       //     e.preventDefault();
